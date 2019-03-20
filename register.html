@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1"">
+    <link rel=" stylesheet" type="text/css" href="register.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li><img src="images/logo.png" /></li>
+                <li id="menu"><a href="index.html">Home</a></li>
+                <li id="menu"><a href="register.html">Register</a></li>
+                <li id="menu"><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <form>
+        <div class="register">
+            <h2>Register</h2>
+            <div id= "data">
+            <label for="firstname">Firstname:&nbsp;&nbsp;</label>
+            <input type="text" id="firstname" placeholder="Enter your Firstname" required>
+            </div>
+
+            <div id= "data">
+            <label for="lastname">lastname:&nbsp;&nbsp;</label>
+            <input type="text" id="lastname" required>
+            </div>  
+
+            <div id= "data">
+            <label for="email">Email:&nbsp;&nbsp;</label>
+            <input type="text" id="email" required>
+            </div>  
+            <p id="trust">We'll never share your email with anyone else.</p>
+
+            <div id= "data">
+            <label for="number">Mobile Number:&nbsp;&nbsp;</label>
+            <input type="number" id="number">
+            </div>
+
+            <div id= "data">
+            <label for="pwd">Password:&nbsp;&nbsp;</label>
+            <input type="password" id="pwd" required>
+            </div>
+
+            <button id ="submit" onclick='checkEmail();'/>Submit</button>
+            <div class="look">
+            <p id="look">Already have an account? </p>
+            <button id ="login"><a href="login.html">Login</a></button>
+            </div>
+        </div>
+        
+
+        <footer>
+            <div class="last">
+                <ul>
+                    <li>
+                        <h2>About us</h2>
+                        <p>SendIT is a parcel/courier service that delivers orders perfectly with utmost speed</p>
+                    </li>
+                    <li>
+                        <h2>Office Address</h2>
+                        <p>No 11, Araba street, Ilupeju estate, Lagos State Nigeria</p>
+                    </li>
+                    <li>
+                        <h2>Working Hours</h2>
+                        <P>Weekdays: 8am - 6pm</P>
+                        <p>Weekends: 10am - 4pm</p>
+                    </li>
+                    <li>
+                        <h2>MORE INFO</h2>
+                        <p>Careers</p>
+                        <p>Help Center</p>
+                        <p>Terms and Conditions</p>
+                        <p>Privacy Policy</p>
+                    </li>
+                </ul>
+        
+            </div>
+        
+        </footer>
+        <div id="copy">
+            <img src="images/logo.png"/><p>Copyright &#169 2019. Developed by Tobiloba</p>
+            </div>
+
+            <script src="new.js"></script>
+
+    </form>
+    </body>
+    
+    </html>
